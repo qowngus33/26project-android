@@ -1,4 +1,4 @@
-# 26project-iOS
+# 26project-android
 
 #### Team
 * 임지은
