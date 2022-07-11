@@ -19,7 +19,3 @@
 7. 세 번째 게임 구현, 메인 화면과 연결, 애니메이션 (계단오르기 게임)
 8. 프로젝트 마무리 
 
-
-<br>
-<img width="1624" alt="img" src="https://user-images.githubusercontent.com/83813866/175806687-9371fc46-331b-4ca7-a00f-4698d02a6701.png">
-
