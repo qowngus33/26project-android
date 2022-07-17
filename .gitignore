@@ -188,3 +188,5 @@ fabric.properties
 
 # user defined file
 app/proguard-rules.pro
+build.gradle
+gradle/wrapper/*
