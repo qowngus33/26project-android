@@ -9,20 +9,276 @@
         android:id="@+id/FirstFragment"
         android:name="com.example.myapplication.FirstFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/activity_main">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_FirstFragment_to_SecondFragment1"
+            app:destination="@id/SecondFragment1" />
     </fragment>
+
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/SecondFragment1"
         android:name="com.example.myapplication.SecondFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        tools:layout="@layout/content_main">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_SecondFragment1_to_SecondFragment2"
+            app:destination="@id/SecondFragment2" />
+        <action
+            android:id="@+id/action_SecondFragment1_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment2"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main2">
+        <action
+            android:id="@+id/action_SecondFragment2_to_SecondFragment3"
+            app:destination="@id/SecondFragment3" />
+        <action
+            android:id="@+id/action_SecondFragment2_to_SecondFragment1"
+            app:destination="@id/SecondFragment1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment3"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main3">
+        <action
+            android:id="@+id/action_SecondFragment3_to_SecondFragment4"
+            app:destination="@id/SecondFragment4" />
+        <action
+            android:id="@+id/action_SecondFragment3_to_SecondFragment2"
+            app:destination="@id/SecondFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment4"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main4">
+        <action
+            android:id="@+id/action_SecondFragment4_to_SecondFragment5"
+            app:destination="@id/SecondFragment5" />
+        <action
+            android:id="@+id/action_SecondFragment4_to_SecondFragment3"
+            app:destination="@id/SecondFragment3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment5"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main5">
+        <action
+            android:id="@+id/action_SecondFragment5_to_SecondFragment6"
+            app:destination="@id/SecondFragment6" />
+        <action
+            android:id="@+id/action_SecondFragment5_to_SecondFragment4"
+            app:destination="@id/SecondFragment4" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment6"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main6">
+        <action
+            android:id="@+id/action_SecondFragment6_to_SecondFragment7"
+            app:destination="@id/SecondFragment7" />
+        <action
+            android:id="@+id/action_SecondFragment6_to_SecondFragment5"
+            app:destination="@id/SecondFragment5" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment7"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main7">
+        <action
+            android:id="@+id/action_SecondFragment7_to_SecondFragment8"
+            app:destination="@id/SecondFragment8" />
+        <action
+            android:id="@+id/action_SecondFragment7_to_SecondFragment6"
+            app:destination="@id/SecondFragment6" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment8"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main8">
+        <action
+            android:id="@+id/action_SecondFragment8_to_SecondFragment9"
+            app:destination="@id/SecondFragment9" />
+        <action
+            android:id="@+id/action_SecondFragment8_to_SecondFragment7"
+            app:destination="@id/SecondFragment7" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment9"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main9">
+        <action
+            android:id="@+id/action_SecondFragment9_to_SecondFragment10"
+            app:destination="@id/SecondFragment10" />
+        <action
+            android:id="@+id/action_SecondFragment9_to_SecondFragment8"
+            app:destination="@id/SecondFragment8" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment10"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main10">
+        <action
+            android:id="@+id/action_SecondFragment10_to_SecondFragment11"
+            app:destination="@id/SecondFragment11" />
+        <action
+            android:id="@+id/action_SecondFragment10_to_SecondFragment9"
+            app:destination="@id/SecondFragment9" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment11"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main11">
+        <action
+            android:id="@+id/action_SecondFragment11_to_SecondFragment12"
+            app:destination="@id/SecondFragment12" />
+        <action
+            android:id="@+id/action_SecondFragment11_to_SecondFragment10"
+            app:destination="@id/SecondFragment10" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment12"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main12">
+        <action
+            android:id="@+id/action_SecondFragment12_to_SecondFragment13"
+            app:destination="@id/SecondFragment13" />
+        <action
+            android:id="@+id/action_SecondFragment12_to_SecondFragment11"
+            app:destination="@id/SecondFragment11" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment13"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main13">
+        <action
+            android:id="@+id/action_SecondFragment13_to_SecondFragment14"
+            app:destination="@id/SecondFragment14" />
+        <action
+            android:id="@+id/action_SecondFragment13_to_SecondFragment12"
+            app:destination="@id/SecondFragment12" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment14"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main14">
+        <action
+            android:id="@+id/action_SecondFragment14_to_SecondFragment15"
+            app:destination="@id/SecondFragment15" />
+        <action
+            android:id="@+id/action_SecondFragment14_to_SecondFragment13"
+            app:destination="@id/SecondFragment13" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment15"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main15">
+        <action
+            android:id="@+id/action_SecondFragment15_to_SecondFragment16"
+            app:destination="@id/SecondFragment16" />
+        <action
+            android:id="@+id/action_SecondFragment15_to_SecondFragment14"
+            app:destination="@id/SecondFragment14" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment16"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main16">
+        <action
+            android:id="@+id/action_SecondFragment16_to_SecondFragment17"
+            app:destination="@id/SecondFragment17" />
+        <action
+            android:id="@+id/action_SecondFragment16_to_SecondFragment15"
+            app:destination="@id/SecondFragment15" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment17"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main17">
+        <action
+            android:id="@+id/action_SecondFragment17_to_SecondFragment18"
+            app:destination="@id/SecondFragment18" />
+        <action
+            android:id="@+id/action_SecondFragment17_to_SecondFragment16"
+            app:destination="@id/SecondFragment16" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment18"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main18">
+        <action
+            android:id="@+id/action_SecondFragment18_to_SecondFragment19"
+            app:destination="@id/SecondFragment19" />
+        <action
+            android:id="@+id/action_SecondFragment18_to_SecondFragment17"
+            app:destination="@id/SecondFragment17" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment19"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main19">
+        <action
+            android:id="@+id/action_SecondFragment19_to_SecondFragment20"
+            app:destination="@id/SecondFragment20" />
+        <action
+            android:id="@+id/action_SecondFragment19_to_SecondFragment18"
+            app:destination="@id/SecondFragment18" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment20"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/content_main20">
+        <action
+            android:id="@+id/action_SecondFragment20_to_finalFragment"
+            app:destination="@id/finalFragment" />
+        <action
+            android:id="@+id/action_SecondFragment20_to_SecondFragment19"
+            app:destination="@id/SecondFragment19" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.example.myapplication.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/activity_result" />
+
 </navigation>
