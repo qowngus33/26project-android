@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/tech_background">
+    android:background="@drawable/tech_background"
+    android:id="@+id/layout">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,45 +21,48 @@
             android:orientation="vertical" >
 
             <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="0dp"
+                android:textStyle="bold"
+                android:text="나와 비슷한 STFriend는?"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:shadowRadius="1.0"
+                android:shadowColor="#000000"/>
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="51dp"
                 android:layout_gravity="center"
-                android:text="테크 Tech"
+                android:text="테크 tech"
                 android:textAlignment="center"
                 android:textColorHighlight="@color/black"
                 android:textColor="#808080"
                 android:textStyle="bold"
-                android:layout_marginEnd="0dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
                 android:textSize="40dp"
                 android:shadowRadius="7.0"
-                android:shadowDx="7.0"
-                android:shadowDy="7.0"
                 android:shadowColor="#ffffff"/>
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/characterImage"
                 android:layout_width="377dp"
-                android:layout_height="371dp"
+                android:layout_height="201dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:contentDescription="TODO"
                 android:src="@drawable/tech" />
 
             <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="83dp"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                app:srcCompat="@drawable/seperate"
-                android:contentDescription="TODO" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="367dp"
-                android:layout_height="315dp"
+                android:id="@+id/descriptionImage"
+                android:layout_width="379dp"
+                android:layout_height="382dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
                 app:srcCompat="@drawable/tech_description" />
@@ -90,11 +94,11 @@
                         android:shadowColor="#ffffff"/>
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/goodFriendImage"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/tech" />
+                        app:srcCompat="@drawable/tech_png" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -114,26 +118,30 @@
                         android:text="나와 안맞는 친구"
                         android:textSize="20dp"
                         android:shadowRadius="7.0"
-                        android:shadowDx="7.0"
-                        android:shadowDy="7.0"
                         android:shadowColor="#ffffff"/>
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/badFriendImage"
                         android:layout_gravity="center"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        app:srcCompat="@drawable/tech" />
+                        app:srcCompat="@drawable/tina_png" />
 
                 </LinearLayout>
             </LinearLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/shareButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
-                android:text="공유하기" />
+                android:background="#00ff0000"
+                android:textColor="@color/white"
+                android:text="테스트 다시하기"
+                android:shadowRadius="1.0"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:shadowColor="#000000"/>
 
         </LinearLayout>
     </ScrollView>
