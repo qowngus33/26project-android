@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/drawable/textview_color.xml" value="0.1" />
-        <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/activity_result.xml" value="0.19855222337125128" />
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/content_main.xml" value="0.19855222337125128" />
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/content_main10.xml" value="0.1" />
@@ -26,7 +26,9 @@
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/content_main7.xml" value="0.10925925925925926" />
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/content_main8.xml" value="0.10925925925925926" />
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/content_main9.xml" value="0.10925925925925926" />
+        <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/fragment_final.xml" value="0.36614583333333334" />
         <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/fragment_first.xml" value="0.36614583333333334" />
+        <entry key="..\:/Tools Android Project/26project-android/app/src/main/res/layout/fragment_second.xml" value="0.13703703703703704" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_result.xml" value="0.15141955835962145" />
