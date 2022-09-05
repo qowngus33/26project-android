@@ -30,12 +30,27 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_result.xml" value="0.42058715820312503" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.2038299560546875" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/layout/content_main10.xml" value="0.17753904038581292" />
         <entry key="app/src/main/res/layout/content_main11.xml" value="0.2463768115942029" />
         <entry key="app/src/main/res/layout/content_main12.xml" value="0.2463768115942029" />
         <entry key="app/src/main/res/layout/content_main13.xml" value="0.2463768115942029" />
+        <entry key="app/src/main/res/layout/content_main14.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main15.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main16.xml" value="0.1947463768115942" />
         <entry key="app/src/main/res/layout/content_main17.xml" value="0.2463768115942029" />
+        <entry key="app/src/main/res/layout/content_main18.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main19.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main2.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main20.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main3.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main4.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main5.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main6.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main7.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main8.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/content_main9.xml" value="0.1947463768115942" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.13072916666666667" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.13072916666666667" />
       </map>
