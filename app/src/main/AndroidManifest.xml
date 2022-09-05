@@ -25,6 +25,26 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResultActivity"/>
+        <activity android:name=".ContentActivity"/>
+        <activity android:name=".ContentActivity2"/>
+        <activity android:name=".ContentActivity3"/>
+        <activity android:name=".ContentActivity4"/>
+        <activity android:name=".ContentActivity5"/>
+        <activity android:name=".ContentActivity6"/>
+        <activity android:name=".ContentActivity7"/>
+        <activity android:name=".ContentActivity8"/>
+        <activity android:name=".ContentActivity9"/>
+        <activity android:name=".ContentActivity10"/>
+        <activity android:name=".ContentActivity11"/>
+        <activity android:name=".ContentActivity12"/>
+        <activity android:name=".ContentActivity13"/>
+        <activity android:name=".ContentActivity14"/>
+        <activity android:name=".ContentActivity15"/>
+        <activity android:name=".ContentActivity16"/>
+        <activity android:name=".ContentActivity17"/>
+        <activity android:name=".ContentActivity18"/>
+        <activity android:name=".ContentActivity19"/>
+        <activity android:name=".ContentActivity20"/>
     </application>
 
 </manifest>

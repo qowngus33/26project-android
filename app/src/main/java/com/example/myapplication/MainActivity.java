@@ -38,11 +38,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(getApplicationContext(),ResultActivity.class);
+                Intent intent = new Intent(getApplicationContext(),ContentActivity.class);
                 // 입력한 input값을 intent로 전달한다.
                 // result 종류: "tech', 'somuni', 'jani', 'bab', 'tina', 'ahu'
-                String result = "tech";
-                intent.putExtra("result", result);
                 startActivity(intent);
             }
         });
