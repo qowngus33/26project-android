@@ -49,7 +49,8 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="MissingConstraints">
 
-        <Button
+        <TextView
+            android:id="@+id/I_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginRight="5dp"
@@ -61,7 +62,8 @@
             android:textColor="#FF000000"
             android:textSize="25dp" />
 
-        <Button
+        <TextView
+            android:id="@+id/E_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
@@ -85,11 +87,14 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
+<<<<<<< HEAD
+=======
+            android:id="@+id/back"
+>>>>>>> 758959eaab2152f646f8140eb413fcd219bf69df
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:text="이전"
-            android:id="@+id/back"
             android:textColor="@color/black"
             android:textSize="30dp"
             android:textStyle="bold"
@@ -98,11 +103,14 @@
             tools:layout_editor_absoluteY="624dp" />
 
         <Button
+<<<<<<< HEAD
+=======
+            android:id="@+id/next"
+>>>>>>> 758959eaab2152f646f8140eb413fcd219bf69df
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="다음"
-            android:id="@+id/next"
             android:textColor="@color/black"
             android:textSize="30dp"
             android:textStyle="bold"
