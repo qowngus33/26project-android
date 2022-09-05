@@ -87,10 +87,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
-<<<<<<< HEAD
-=======
             android:id="@+id/back"
->>>>>>> 758959eaab2152f646f8140eb413fcd219bf69df
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
@@ -103,10 +100,7 @@
             tools:layout_editor_absoluteY="624dp" />
 
         <Button
-<<<<<<< HEAD
-=======
             android:id="@+id/next"
->>>>>>> 758959eaab2152f646f8140eb413fcd219bf69df
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
