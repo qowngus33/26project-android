@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,11 +18,16 @@ public class ContentActivity17 extends AppCompatActivity {
     private ActivityMainBinding binding;
     private Button backButton;
     private Button nextButton;
+    private Button P_button;
+    private Button J_button;
+    private int [] list;
+    private int value = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main17);
+        list = getIntent().getIntArrayExtra("list");
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
@@ -40,7 +46,29 @@ public class ContentActivity17 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),ContentActivity18.class);
+                list[3]+=value;
+                intent.putExtra("list", list);
                 startActivity(intent);
+            }
+        });
+
+        P_button = findViewById(R.id.P_button);
+        J_button = findViewById(R.id.J_button);
+
+        J_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                J_button.setBackgroundColor(Color.parseColor("#D3D3D3"));
+                P_button.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                value=1;
+            }
+        });
+        P_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                P_button.setBackgroundColor(Color.parseColor("#D3D3D3"));
+                J_button.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                value=-1;
             }
         });
     }

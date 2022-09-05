@@ -44,48 +44,48 @@ public class ResultActivity extends AppCompatActivity {
         String result = getIntent().getStringExtra("result");
         // result 종류: "tech', 'somuni', 'jani', 'bab', 'tina', 'ahu'
 
-        if(result.equals("tech")) {
+        if(result.equals("entj") || result.equals("intj") || result.equals("estj")) {
             textView.setText("테크 Tech");
             layout.setBackgroundResource(R.drawable.tech_background);
             character.setImageResource(R.drawable.tech);
             description.setImageResource(R.drawable.tech_description);
             goodFriend.setImageResource(R.drawable.jani_png);
             badFriend.setImageResource(R.drawable.tina_png);
-        } else if(result.equals("somuni")) {
+        } else if(result.equals("esfp") || result.equals("enfp") || result.equals("enfj") || result.equals("esfj")) {
             textView.setText("소무니 somuni");
             layout.setBackgroundResource(R.drawable.somuni_background);
             character.setImageResource(R.drawable.somuni);
             description.setImageResource(R.drawable.somuni_description);
             goodFriend.setImageResource(R.drawable.bab_png);
             badFriend.setImageResource(R.drawable.tina_png);
-        } else if(result.equals("jani")) {
+        } else if(result.equals("isfp") || result.equals("infp") || result.equals("intp")) {
             textView.setText("자니 jani");
             layout.setBackgroundResource(R.drawable.jani_background);
             character.setImageResource(R.drawable.jani);
             description.setImageResource(R.drawable.jani_description);
             goodFriend.setImageResource(R.drawable.tech_png);
             badFriend.setImageResource(R.drawable.bab_png);
-        } else if(result.equals("bab")) {
+        } else if(result.equals("entp") || result.equals("estp")) {
             textView.setText("밥 bab");
             layout.setBackgroundResource(R.drawable.bab_background);
             character.setImageResource(R.drawable.bab);
             description.setImageResource(R.drawable.bab_description);
             goodFriend.setImageResource(R.drawable.somuni_png);
             badFriend.setImageResource(R.drawable.jani_png);
-        } else if(result.equals("tina")) {
-            textView.setText("tina 티나");
-            layout.setBackgroundResource(R.drawable.tina_background);
-            character.setImageResource(R.drawable.tina);
-            description.setImageResource(R.drawable.tina_description);
-            goodFriend.setImageResource(R.drawable.ahu_png);
-            badFriend.setImageResource(R.drawable.jani_png);
-        } else  {
+        } else if(result.equals("istj") || result.equals("isfj") || result.equals("infj") || result.equals("istp")) {
             textView.setText("아휴 ahu");
             layout.setBackgroundResource(R.drawable.ahu_background);
             character.setImageResource(R.drawable.ahu);
             description.setImageResource(R.drawable.ahu_description);
             goodFriend.setImageResource(R.drawable.somuni_png);
             badFriend.setImageResource(R.drawable.tech_png);
+        } else  {
+            textView.setText("tina 티나");
+            layout.setBackgroundResource(R.drawable.tina_background);
+            character.setImageResource(R.drawable.tina);
+            description.setImageResource(R.drawable.tina_description);
+            goodFriend.setImageResource(R.drawable.ahu_png);
+            badFriend.setImageResource(R.drawable.jani_png);
         }
 
         reButton.setOnClickListener(new View.OnClickListener() {
