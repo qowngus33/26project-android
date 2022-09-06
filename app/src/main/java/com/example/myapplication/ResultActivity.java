@@ -42,7 +42,6 @@ public class ResultActivity extends AppCompatActivity {
         reButton = findViewById(R.id.shareButton);
 
         String result = getIntent().getStringExtra("result");
-        // result 종류: "tech', 'somuni', 'jani', 'bab', 'tina', 'ahu'
 
         if(result.equals("entj") || result.equals("intj") || result.equals("estj")) {
             textView.setText("테크 Tech");
