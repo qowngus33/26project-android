@@ -40,7 +40,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="130dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="150dp"
         android:orientation="horizontal"
@@ -97,7 +97,9 @@
             android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="280dp"
-            tools:layout_editor_absoluteY="624dp" />
+            tools:layout_editor_absoluteY="624dp"
+            android:background="#FF9800"
+            android:backgroundTint="#FF9800"/>
 
         <Button
             android:id="@+id/next"
@@ -110,7 +112,9 @@
             android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="20dp"
-            tools:layout_editor_absoluteY="796dp" />
+            tools:layout_editor_absoluteY="796dp"
+            android:background="#FF9800"
+            android:backgroundTint="#FF9800"/>
 
     </LinearLayout>
 
