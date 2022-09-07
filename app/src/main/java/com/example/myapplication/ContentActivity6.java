@@ -39,6 +39,7 @@ public class ContentActivity6 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),ContentActivity5.class);
+                intent.putExtra("list",list);
                 startActivity(intent);
             }
         });
