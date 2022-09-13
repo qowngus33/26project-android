@@ -9,6 +9,9 @@
 
 <img width="500" alt="스크린샷 2022-09-06 오후 5 31 17" src="https://user-images.githubusercontent.com/83813866/188586907-7b04f9b6-8287-40e1-8f5e-3502e8244a9e.png"> </br> </br>
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/83813866/189847688-fc34ba9d-e798-47ca-aef5-ef21c1db6cbe.png">
+
+
 
 ## ✅ 개발 과정
 **1주차** : 캐릭터별 성향 정리, 성향별 질문 정리 -> 엑셀 파일로 정리 </br></br>
